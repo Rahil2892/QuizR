@@ -1,0 +1,20 @@
+.main{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    float: center;
+    background-color: #ffe4c4;
+}
+
+.title{
+    height: 10%;
+}
+
+.content{
+    padding-left: 10px;
+}
+
+.ccard{
+    border-radius: 2rem;
+    background-color: whitesmoke;   
+}
