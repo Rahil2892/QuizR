@@ -25,6 +25,7 @@ class Form extends Component{
         .then((data)=>{
             console.log(data,"userData");
             this.setState({userData: data.data});
+            window.localStorage.setItem("loggedIn",true);
         });
     }
     render(){

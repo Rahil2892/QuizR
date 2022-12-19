@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import {Component} from "react";
 import Card from './card';
 import './scorepage.css';
