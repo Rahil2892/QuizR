@@ -2,12 +2,18 @@ import React,{Component} from "react";
 import profile from './images/profile.png'
 
 class Form extends Component{
+    signOut = () => {
+        localStorage.clear();
+        window.location.href="./";
+      };
     constructor(props){
         super(props);
         this.state={
             userData:"",
             
         };
+        this.signOut=this.signOut.bind(this);
+
     }
     componentDidMount(){
         fetch("http://localhost:5000/userData",{
@@ -40,6 +46,7 @@ class Form extends Component{
                     <p>Your top score is: </p>
                     <p>{this.state.userData.topscore}</p>
                 </div>}
+                <button className="nextBtn" onClick={this.signOut}> Sign Out </button>
             </div>
         )
     }
