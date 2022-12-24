@@ -4,7 +4,6 @@ import sportImg from './images/sports.png'
 import scienceImg from './images/science.png'
 import langImg from './images/language.png'
 
-
 class Main extends Component{
     render(){
         return(
@@ -17,13 +16,13 @@ class Main extends Component{
                     <h4>Categories</h4>
                     <div className="flex space-x-4 mx-auto items-center justify-between" >
                         <div className="ccard">
-                        <CategoryCard catName='sports' cardImage={sportImg} catDef='questions based on sports, games, atheletes and events.'/>
+                        <CategoryCard catId='1' catName='sports' cardImage={sportImg} catDef='questions based on sports, games, atheletes and events.'/>  
                         </div>
                         <div className="ccard">
-                        <CategoryCard catName='science' cardImage={scienceImg} catDef='questions based on physics, chemistry, biology and discoveries'/>
+                        <CategoryCard catId='2' catName='science' cardImage={scienceImg} catDef='questions based on physics, chemistry, biology and discoveries'/>
                         </div>
                         <div className="ccard">
-                        <CategoryCard catName='languages' cardImage={langImg} catDef='questions based on literature,grammer,poetry from different languages'/>
+                        <CategoryCard catId='3' catName='languages' cardImage={langImg} catDef='questions based on literature,grammer,poetry from different languages'/>
                         </div>
                     </div>
                     
@@ -38,3 +37,4 @@ class Main extends Component{
 }
 
 export default Main;
+

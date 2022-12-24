@@ -1,6 +1,8 @@
-export const questions = [
+
+
+export const question3 = [
     {
-      questionText: "How long is an Olympic swimming pool (in meters)",
+      questionText: "this is q 3",
       answers: [
         {
           answerText: "50",
@@ -212,3 +214,5 @@ export const questions = [
       ],
     },
   ];
+
+

@@ -32,7 +32,7 @@ const Question = ({
 
   return (
     <Card>
-        <h1 className='question'>{questions[questionIndex].questionText}</h1>
+        <h1 className='question'>{questions[questionIndex].questionText }</h1>
         <div className='answers'>
             {questions[questionIndex].answers.map((answer,index)=>(
               <div className="answer" key={index} onClick={()=>handleClick(answer.correctAnswer)}><p>{answer.answerText}</p></div>

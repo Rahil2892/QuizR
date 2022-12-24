@@ -1,7 +1,5 @@
 import React from 'react'
-// import React,{Component} from "react";
 import { Link } from "react-router-dom";
-// import cardImage from './images/sports.png'
 
 const Card = (props) => {
   const nextBtn = () => {
@@ -15,9 +13,9 @@ const Card = (props) => {
         <div className=' h-52 mx-auto flex-col items-center text-center justify-center flex space-y-8 px-4 ' >
             <h3>{props.catName}</h3>
             <p>{props.catDef}</p>
-            <Link to="/quiz">
+            <Link to={`/quiz/${props.catId}`}>
             <button onClick={nextBtn} className="nextBtn">
-             Play
+              Play
             </button>
             </Link>
         </div>
