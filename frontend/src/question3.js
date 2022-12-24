@@ -2,23 +2,23 @@
 
 export const question3 = [
     {
-      questionText: "this is q 3",
+      questionText: "How many countries does China share a border with?",
       answers: [
         {
-          answerText: "50",
+          answerText: "4",
+          correctAnswer: false,
+        },
+        {
+          answerText: "7",
+          correctAnswer: false,
+        },
+        {
+          answerText: "10",
+          correctAnswer: false,
+        },
+        {
+          answerText: "14",
           correctAnswer: true,
-        },
-        {
-          answerText: "60",
-          correctAnswer: false,
-        },
-        {
-          answerText: "75",
-          correctAnswer: false,
-        },
-        {
-          answerText: "100",
-          correctAnswer: false,
         },
       ],
     },
@@ -45,85 +45,85 @@ export const question3 = [
       ],
     },
     {
-      questionText: "What geometric shape is generally used for stop signs?",
+      questionText: "In which country is Mount Kilimanjaro?",
       answers: [
         {
-          answerText: "Square",
+          answerText: "Kenya",
           correctAnswer: false,
         },
         {
-          answerText: "Octagon",
+          answerText: "Tanzania",
           correctAnswer: true,
         },
         {
-          answerText: "Rectangle",
+          answerText: "Congo",
           correctAnswer: false,
         },
         {
-          answerText: "Triangle",
+          answerText: "Nigeria",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "What is cynophobia?",
+      questionText: "Which one of the following countries is not an enclave?",
       answers: [
         {
-          answerText: "Fear of spiders",
+          answerText: "Vatican",
           correctAnswer: false,
         },
         {
-          answerText: "Fear of darkness",
+          answerText: "San Marino",
           correctAnswer: false,
         },
         {
-          answerText: "Fear of dogs",
+          answerText: "Italy",
           correctAnswer: true,
         },
         {
-          answerText: "Fear of heights",
+          answerText: "Lesotho",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "How many languages are written from right to left?",
+      questionText: "Which one of the following countries is further North?",
       answers: [
         {
-          answerText: "12",
+          answerText: "Scotland",
           correctAnswer: true,
         },
         {
-          answerText: "10",
+          answerText: "The Netherlands",
           correctAnswer: false,
         },
         {
-          answerText: "15",
+          answerText: "Belgium",
           correctAnswer: false,
         },
         {
-          answerText: "1",
+          answerText: "Poland",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "Which animal can be seen on the Porsche logo?",
+      questionText: "What percentage of the world population lives in the Northern Hemisphere?",
       answers: [
         {
-          answerText: "Fox",
+          answerText: "57%",
           correctAnswer: false,
         },
         {
-          answerText: "Wolf",
+          answerText: "67%",
           correctAnswer: false,
         },
         {
-          answerText: "Horse",
+          answerText: "77%",
           correctAnswer: true,
         },
         {
-          answerText: "Bull",
+          answerText: "87%",
           correctAnswer: false,
         },
       ],
@@ -151,64 +151,64 @@ export const question3 = [
     },
     {
       questionText:
-        "Demolition of the Berlin wall separating East and West Germany began in what year?",
+        "In which country is located the volcano Eyjafjallajökull which stopped air traffic for days in 2010?",
       answers: [
         {
-          answerText: "1980",
+          answerText: "Greenland",
           correctAnswer: false,
         },
         {
-          answerText: "1989",
+          answerText: "Iceland",
           correctAnswer: true,
         },
         {
-          answerText: "1992",
+          answerText: "Indonesia",
           correctAnswer: false,
         },
         {
-          answerText: "1990",
+          answerText: "Italy",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "What is the rarest M&M color?",
+      questionText: "In which Mountain range can you find the Mont Blanc? ",
       answers: [
         {
-          answerText: "Brown",
+          answerText: " The Alps",
           correctAnswer: true,
         },
         {
-          answerText: "Green",
+          answerText: "The Pyrenees",
           correctAnswer: false,
         },
         {
-          answerText: "Red",
+          answerText: "Carpathian Mountains",
           correctAnswer: false,
         },
         {
-          answerText: "Blue",
+          answerText: "Caucasus Mountains",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "Which country invented ice cream?",
+      questionText: "What was the lowest temperature ever recorded on the Earth?",
       answers: [
         {
-          answerText: "India",
+          answerText: "-99.2°C",
           correctAnswer: false,
         },
         {
-          answerText: "China",
+          answerText: "-89.2°C",
           correctAnswer: true,
         },
         {
-          answerText: "England",
+          answerText: "-79.2°C",
           correctAnswer: false,
         },
         {
-          answerText: "Brazil",
+          answerText: "-69.2°C",
           correctAnswer: false,
         },
       ],

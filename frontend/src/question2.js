@@ -2,65 +2,65 @@
 
 export const question2 = [
     {
-      questionText: "what is my name",
+      questionText: "What is the PH of H2O?",
       answers: [
         {
-          answerText: "akon",
+          answerText: "7",
           correctAnswer: true,
         },
         {
-          answerText: "60",
+          answerText: "8",
           correctAnswer: false,
         },
         {
-          answerText: "75",
+          answerText: "9",
           correctAnswer: false,
         },
         {
-          answerText: "100",
+          answerText: "6",
           correctAnswer: false,
         },
       ],
     },
     {
       questionText:
-        "Which country do cities of Perth, Adelade & Brisbane belong to?",
+        "Which of the following gas is reduced in the reduction process?",
       answers: [
         {
-          answerText: "France",
+          answerText: "Oxygen",
           correctAnswer: false,
         },
         {
-          answerText: "Portugal",
+          answerText: "Helium",
           correctAnswer: false,
         },
         {
-          answerText: "Germany",
+          answerText: "Carbon",
           correctAnswer: false,
         },
         {
-          answerText: "Australia",
+          answerText: "Hydrogen",
           correctAnswer: true,
         },
       ],
     },
     {
-      questionText: "What geometric shape is generally used for stop signs?",
+      questionText: "Which of the following compound is mainly used in hand sanitizer?",
       answers: [
         {
-          answerText: "Square",
+          answerText: "Aldehyde",
           correctAnswer: false,
         },
         {
-          answerText: "Octagon",
+          answerText: "Alcohol",
           correctAnswer: true,
         },
         {
-          answerText: "Rectangle",
+          answerText: "Acetic acid",
           correctAnswer: false,
         },
         {
-          answerText: "Triangle",
+          answerText: "Ketone",
           correctAnswer: false,
         },
       ],
@@ -87,128 +87,128 @@ export const question2 = [
       ],
     },
     {
-      questionText: "How many languages are written from right to left?",
+      questionText: "What is the S.I unit of frequency?",
       answers: [
         {
-          answerText: "12",
+          answerText: "Hertz",
           correctAnswer: true,
         },
         {
-          answerText: "10",
+          answerText: "Diopter",
           correctAnswer: false,
         },
         {
-          answerText: "15",
+          answerText: "Second",
           correctAnswer: false,
         },
         {
-          answerText: "1",
+          answerText: "Meter",
           correctAnswer: false,
         },
       ],
     },
     {
-      questionText: "Which animal can be seen on the Porsche logo?",
+      questionText: "Acid turns blue litmus paper into which color?",
       answers: [
         {
-          answerText: "Fox",
-          correctAnswer: false,
-        },
-        {
-          answerText: "Wolf",
-          correctAnswer: false,
-        },
-        {
-          answerText: "Horse",
-          correctAnswer: true,
-        },
-        {
-          answerText: "Bull",
-          correctAnswer: false,
-        },
-      ],
-    },
-    {
-      questionText: "What is the name of the largest ocean on earth?",
-      answers: [
-        {
-          answerText: "Pacific Ocean",
-          correctAnswer: true,
-        },
-        {
-          answerText: "Atlantic Ocean",
-          correctAnswer: false,
-        },
-        {
-          answerText: "Indian Ocean",
-          correctAnswer: false,
-        },
-        {
-          answerText: "Artic Ocean",
-          correctAnswer: false,
-        },
-      ],
-    },
-    {
-      questionText:
-        "Demolition of the Berlin wall separating East and West Germany began in what year?",
-      answers: [
-        {
-          answerText: "1980",
-          correctAnswer: false,
-        },
-        {
-          answerText: "1989",
-          correctAnswer: true,
-        },
-        {
-          answerText: "1992",
-          correctAnswer: false,
-        },
-        {
-          answerText: "1990",
-          correctAnswer: false,
-        },
-      ],
-    },
-    {
-      questionText: "What is the rarest M&M color?",
-      answers: [
-        {
-          answerText: "Brown",
-          correctAnswer: true,
-        },
-        {
-          answerText: "Green",
-          correctAnswer: false,
-        },
-        {
-          answerText: "Red",
+          answerText: "Black",
           correctAnswer: false,
         },
         {
           answerText: "Blue",
           correctAnswer: false,
         },
-      ],
-    },
-    {
-      questionText: "Which country invented ice cream?",
-      answers: [
         {
-          answerText: "India",
-          correctAnswer: false,
-        },
-        {
-          answerText: "China",
+          answerText: "Red",
           correctAnswer: true,
         },
         {
-          answerText: "England",
+          answerText: "Orange",
+          correctAnswer: false,
+        },
+      ],
+    },
+    {
+      questionText: "Which of the following enzymes is not present in the human stomach?",
+      answers: [
+        {
+          answerText: "Trypsin",
+          correctAnswer: true,
+        },
+        {
+          answerText: "Hydrochloric acid",
           correctAnswer: false,
         },
         {
-          answerText: "Brazil",
+          answerText: "Mucus",
+          correctAnswer: false,
+        },
+        {
+          answerText: "Pepsin",
+          correctAnswer: false,
+        },
+      ],
+    },
+    {
+      questionText:
+        "Which of the following gland is present in the human mouth?",
+      answers: [
+        {
+          answerText: "Adrenal",
+          correctAnswer: false,
+        },
+        {
+          answerText: "Salivary",
+          correctAnswer: true,
+        },
+        {
+          answerText: "Gonads",
+          correctAnswer: false,
+        },
+        {
+          answerText: "Pituitary",
+          correctAnswer: false,
+        },
+      ],
+    },
+    {
+      questionText: " What is the frequency range of white light?",
+      answers: [
+        {
+          answerText: "4 * 1014 to 8 * 1014",
+          correctAnswer: true,
+        },
+        {
+          answerText: "4 * 1014 to 9 * 1014",
+          correctAnswer: false,
+        },
+        {
+          answerText: "5 * 1014 to 8 * 1014",
+          correctAnswer: false,
+        },
+        {
+          answerText: "5 * 1014 to 9 * 1014",
+          correctAnswer: false,
+        },
+      ],
+    },
+    {
+      questionText: "What is the chemical formula of alcohol?",
+      answers: [
+        {
+          answerText: "C2H5",
+          correctAnswer: false,
+        },
+        {
+          answerText: "C2H5OH",
+          correctAnswer: true,
+        },
+        {
+          answerText: "C2H5COOH",
+          correctAnswer: false,
+        },
+        {
+          answerText: "C2H5O",
           correctAnswer: false,
         },
       ],

@@ -2,7 +2,7 @@ import React,{Component} from "react";
 import CategoryCard from './CategoryCard'
 import sportImg from './images/sports.png'
 import scienceImg from './images/science.png'
-import langImg from './images/language.png'
+import geoImg from './images/geography.png'
 
 class Main extends Component{
     render(){
@@ -22,7 +22,7 @@ class Main extends Component{
                         <CategoryCard catId='2' catName='science' cardImage={scienceImg} catDef='questions based on physics, chemistry, biology and discoveries'/>
                         </div>
                         <div className="ccard">
-                        <CategoryCard catId='3' catName='languages' cardImage={langImg} catDef='questions based on literature,grammer,poetry from different languages'/>
+                        <CategoryCard catId='3' catName='geography' cardImage={geoImg} catDef='questions based on city,state and contries all over the globe'/>
                         </div>
                     </div>
                     
