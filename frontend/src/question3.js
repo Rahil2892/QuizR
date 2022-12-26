@@ -120,11 +120,11 @@ export const question3 = [
         },
         {
           answerText: "77%",
-          correctAnswer: true,
+          correctAnswer: false,
         },
         {
           answerText: "87%",
-          correctAnswer: false,
+          correctAnswer: true,
         },
       ],
     },
