@@ -1,0 +1,19 @@
+.quizCardCont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    min-height:100vh;
+    width:100vw;
+}
+
+
+.quizcard{
+    min-height: 600px;
+    width: 550px;
+    background-color: antiquewhite;
+    padding: 2rem;
+    border-radius: 1rem;
+    position:relative;
+    border: 1px solid black;
+}

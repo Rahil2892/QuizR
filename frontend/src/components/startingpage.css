@@ -1,0 +1,32 @@
+.header, .primay_text{
+text-align: center;
+}
+
+.header{
+    margin: 2rem;
+     
+}
+
+.start_btn{
+    border: 0;
+    outline: 0;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+    margin: 2rem auto;
+}
+
+.top_score{
+    font-weight: bold;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+}

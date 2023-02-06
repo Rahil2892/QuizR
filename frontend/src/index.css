@@ -1,0 +1,23 @@
+/* body{
+  height: 100vh;
+  background-color: aquamarine; 
+  background-image: linear-gradient(120deg, blueviolet,pink);
+}
+#root{
+
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+} */
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lilita One', cursive;;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
